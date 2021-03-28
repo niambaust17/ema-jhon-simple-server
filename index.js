@@ -11,7 +11,7 @@ app.use(cors())
 
 app.get('/', function (req, res)
 {
-    res.send('hello ema jhon')
+    res.send('hello from ema jhon db server')
 })
 
 client.connect(err =>
